@@ -156,7 +156,7 @@ let showData = async () => {
   querySnapshot.forEach((doc) => {
     let data = doc.data(); // Get Firestore document data
 
-    main.innerHTML += `<div class="col-md-6">
+    main.innerHTML += `<div class="col-md-6 mb-3">
         <div class="card  shadow-sm">
           <img src="${data.image}" class="card-img-top" alt="${data.title}" style="height: 200px; object-fit: cover;">
           <div class="card-body">

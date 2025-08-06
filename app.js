@@ -157,7 +157,7 @@ let showData = async () => {
     let data = doc.data(); // Get Firestore document data
 
     main.innerHTML += `<div class="col-md-6 mb-3">
-        <div class="card  shadow-sm">
+        <div class="card  shadow-sm mb-4">
           <img src="${data.image}" class="card-img-top" alt="${data.title}" style="height: 200px; object-fit: cover;">
           <div class="card-body">
             <h5 class="card-title">${data.title}</h5>

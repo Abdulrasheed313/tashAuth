@@ -164,8 +164,8 @@ let showData = async () => {
             <p class="card-text">${data.description}</p>
             <p class="card-text fw-bold text-success">Rs ${data.price}</p>
             <div class="d-flex justify-content-between">
-            <a href="#" class="btn btn-primary">Buy Now</a>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-success">Edit</a>
+            <a href="#" class="btn btn-danger">Delete</a>
             
             </div>
           </div>
